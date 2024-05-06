@@ -10,18 +10,58 @@
 <body>
     <div class="image-form">
         <div class="image">
-            <!-- <img src="Images/Jujutsu_Technical_School.jpeg" alt="Tokyo Metropolitan Curse Technical College" class = "jj-school"> -->
-            
+            <div class = "logo-title">
+                <img src="Images/Jujutsu-logo.png" alt="">
+                <h1>Jujutsu<br>Technical<br>School</h1>
+            </div>
+            <abbr><a href = "https://jujutsu-kaisen.fandom.com/wiki/Tokyo_Metropolitan_Curse_Technical_College">image source</a></abbr>
         </div>
         <div class="form-content">
             <div class="message">
-
+                <p>Welocme to <strong>Tokyo Metropolitan Curse Technical College</strong>, 
+                    if you want to be among the elite members of Jujutsu Sorcerers and stand out amongst monkeys then Sign up
+                    <em>today!</em><br><br>Let's <em>kill</em> some curses!</p>
             </div>
             <div class="form">
-
+                <h3>Let's enroll!</h3>
+                <form action="">
+                    <div class = form-row>
+                        <div class = "column">
+                            <label for = "first-name">FIRST NAME</label>
+                            <label for = "last-name">LAST NAME</label>
+                        </div>
+                        <div class="column">
+                            <input id = "first-name" name = "first-name" placeholder="Gojou" type = "text">
+                            <input id = "last-name" name = "last-name" placeholder="Satoru" type = "text">
+                        </div>
+                    </div>
+                    <div class = form-row>
+                        
+                        <div class="column">
+                            <label for = "phone-number">PHONE NUMBER</label>
+                            <label for = "email">EMAIL</label>
+                        </div>
+                        <div class="column">
+                            <input id = "phone-number" name = "phone-number" placeholder="+1 7845962173" type="tel">
+                            <input id = "email" name = "email" placeholder="yourname@jjk.com" type = "email">
+                        </div>
+                    </div>
+                    <div class = form-row>
+                        <div class="column">
+                            <label for = "password">PASSWORD</label>
+                            <label for = "confirm-password">CONFIRM PASSWORD</label>
+                        </div>
+                        <div class="column">
+                            <input id = "password" name = "password" type = "password">
+                            <input id = "confirm-password" name = "confirm-password" type = "password">
+                            </div>
+                        </div>
+                        <p class = "in-case-no-match"></p>
+                </form>
             </div>
             <div class="submit">
-
+                <button id = "create-account">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </div>
